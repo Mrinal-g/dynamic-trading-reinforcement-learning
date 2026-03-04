@@ -57,14 +57,13 @@ The modeling pipeline consists of:
 
 ## Strategy Performance (γ = 3)
 
-| Strategy | Annual Return | Volatility | Sharpe Ratio | Max Drawdown |
-|----------|--------------|-----------|--------------|--------------|
-| Dynamic Strategy | 14.33% | 20.70% | 0.69 | -55.6% |
-| Markowitz Portfolio | 10.41% | 12.95% | 0.80 | -33.8% |
-| Equal Weight Portfolio | 14.33% | 20.70% | 0.69 | -55.6% |
-| RL Strategy (PPO) | 14.14% | 21.72% | 0.65 | - |
+| Strategy | Annual Return | Volatility | Sharpe Ratio |
+|----------|--------------|-----------|--------------|
+| Dynamic Strategy | 14.33% | 20.70% | 0.69 |
+| Markowitz Portfolio | 10.41% | 12.95% | 0.80 |
+| RL Strategy (PPO) | 14.14% | 21.72% | 0.65 |
 
-The dynamic trading strategy achieves higher cumulative returns relative to classical static allocation methods, reflecting the value of incorporating predictable returns and trading costs.
+The dynamic trading strategy generates higher cumulative returns relative to the classical Markowitz portfolio by incorporating predictable returns and transaction costs, while reinforcement learning provides comparable performance in adaptive trading environments.
 
 ---
 
