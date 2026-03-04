@@ -10,7 +10,7 @@ This project implements the dynamic trading framework proposed by **Gârleanu & 
 
 ## Research Objective
 
-The project evaluates whether **dynamic portfolio rebalancing** improves performance compared with classical static allocation strategies.
+Evaluate whether **dynamic portfolio rebalancing** improves performance relative to classical static allocation strategies.
 
 Key goals:
 
@@ -45,6 +45,10 @@ The modeling pipeline consists of:
 ---
 
 ## Dynamic Trading Framework
+
+The Gârleanu–Pedersen model determines how a portfolio should adjust over time when trading is costly.
+
+Instead of instantaneously rebalancing to the frictionless Markowitz optimal portfolio, the strategy **gradually moves toward a target allocation ("aim portfolio")**, reducing excessive turnover and transaction costs.
 
 The dynamic trading strategy follows the framework proposed by Gârleanu & Pedersen (2013).  
 Instead of rebalancing fully to the optimal Markowitz portfolio each period, the portfolio
@@ -100,9 +104,11 @@ The dynamic trading strategy achieves higher cumulative returns, while the Marko
 
 ## Key Findings
 
-- Dynamic portfolio optimization improves cumulative returns relative to classical Markowitz allocation.
+- Dynamic trading produces higher cumulative returns than static Markowitz allocation.
 - Transaction cost modeling leads to more realistic trading behavior.
 - Reinforcement learning provides comparable performance in adaptive portfolio allocation.
+
+---
 
 ## Repository Structure
 
