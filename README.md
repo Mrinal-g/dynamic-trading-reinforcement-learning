@@ -94,7 +94,8 @@ where:
 | Markowitz Portfolio | 10.4 | 13.0 | 0.80 |
 | RL Strategy (PPO) | 14.1 | 21.7 | 0.65 |
 
-## The dynamic trading strategy achieves higher cumulative returns, while the Markowitz portfolio exhibits a higher Sharpe ratio due to lower volatility. The reinforcement learning strategy shows comparable performance.
+The dynamic trading strategy achieves higher cumulative returns, while the Markowitz portfolio exhibits a higher Sharpe ratio due to lower volatility. The reinforcement learning strategy shows comparable performance.
+
 ---
 
 ## Key Findings
