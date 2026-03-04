@@ -1,5 +1,4 @@
 # Dynamic Trading with Predictable Returns & Transaction Costs
-
 Quantitative Finance | Portfolio Optimization | Reinforcement Learning
 
 Capstone Project — MS Financial Engineering  
